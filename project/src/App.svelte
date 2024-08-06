@@ -1,5 +1,6 @@
 <script>
   import MeetingCard from './pages/MeetingCard.svelte';
+  import MeetingCardSoon from './pages/MeetingCardSoon.svelte';
 </script>
 
 <main class="p-4 bg-gray-100 min-h-screen">
@@ -32,20 +33,20 @@
   <section class="bg-blue-800 p-4 rounded-lg h-3/6">
     <h2 class="text-white text-xl mb-4">Meeting Soon</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 h-auto">
-      <MeetingCard title="Meeting 1" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 2" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 3" description="Description" speaker="Speaker" />
+      <MeetingCardSoon title="Meeting 1" description="Description" speaker="Speaker" />
+      <MeetingCardSoon title="Meeting 2" description="Description" speaker="Speaker" />
+      <MeetingCardSoon title="Meeting 3" description="Description" speaker="Speaker" />
       
 
     </div>
     <h2 class="text-white text-xl mb-4">Earlier Meeting</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
+      <MeetingCard title="Meeting 1" description="Description" speaker="Speaker" />
+      <MeetingCard title="Meeting 2" description="Description" speaker="Speaker" />
+      <MeetingCard title="Meeting 3" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 4" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 5" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 6" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 7" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 8" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 9" description="Description" speaker="Speaker" />
     </div>
   </section>
 
