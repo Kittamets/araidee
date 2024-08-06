@@ -137,7 +137,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-color: #4285f4;
+    background-color: #9B5757;
     border: none;
     cursor: pointer;
     position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
@@ -148,7 +148,7 @@
     width: 30px;
     height: 30px;
     transform: rotate(-90deg); /* หมุนลูกศร 180 องศา */
-    fill: white;
+    fill: black;
     position: absolute; 
         
         
