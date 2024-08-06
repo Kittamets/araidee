@@ -35,14 +35,13 @@
       <MeetingCard title="Meeting 1" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 2" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 3" description="Description" speaker="Speaker" />
-      
+      <MeetingCard title="Meeting 4" description="Description" speaker="Speaker" />
+      <MeetingCard title="Meeting 5" description="Description" speaker="Speaker" />
+      <MeetingCard title="Meeting 6" description="Description" speaker="Speaker" />
 
     </div>
     <h2 class="text-white text-xl mb-4">Earlier Meeting</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-full">
-      <MeetingCard title="Meeting 4" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 5" description="Description" speaker="Speaker" />
-      <MeetingCard title="Meeting 6" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 7" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 8" description="Description" speaker="Speaker" />
       <MeetingCard title="Meeting 9" description="Description" speaker="Speaker" />
@@ -51,7 +50,7 @@
 
   <button class="fixed bottom-4 right-4 bg-red-500 text-white rounded-full p-4 shadow-lg">
     <svg
-      class="w-4 h-4"
+      class="w-6 h-6"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

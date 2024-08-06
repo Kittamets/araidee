@@ -1,33 +1,44 @@
 <script>
-    // You can add any necessary script here
+    let x = 200;
+    let y = 200;
 </script>
 
 <div class="container">
+
     <div class="header">
-        <div class="red-border"></div>
-    </div>
-    <div class="grid">
-        <div class="large">
-            <h2>Project assign to</h2>
+        <div class="red-border">
+            <h3></h3>
         </div>
-        <div>
-            <h3>Finished project</h3>
-        </div>
-        <div>
-            <h3>On going project</h3>
-        </div>
-        <div>
-            <h3>On waiting list project</h3>
-            
-        </div>
-        <div class="finished-project">
-            <div>
-                <h3>Finished project</h3>
-            </div>
-    </div>
     
     </div>
-</div>
+
+   
+            <div class="Project-assign-to">
+                <h3>Project assign to</h3>
+            </div>
+        
+
+
+            <div class="finished-project">
+                <h1>Finished project</h1>
+            </div>
+
+            <div class = "On-going-project">
+                <h1>On going project</h1>
+            </div>
+
+
+            <div class = "On-waiting-list-project">
+                <h1>On waiting list project</h1>
+            </div>
+
+        </div>
+        <button class="button">
+            <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12 2L3.5 10.5H10v11h4v-11h6.5L12 2z"/>
+            </svg>
+          </button>
+
 
 <style>
     .container {
@@ -62,17 +73,85 @@
         border-radius: 10px;
         padding: 10px;
     }
-
-    .large {
-        grid-column: span 2;
-        height: 150px;
-    }
-
     .red-border {
-        border: 5px solid red;
+        padding: 10px;
+        border-radius: 10%;
+        border: 15px solid red;
         background-color: white;
+        height: 400px;
+        width: 400px; /* Adjust the height as needed */
+        position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 0px; /* ปรับค่าตามต้องการ */
+        left: 100px; /* ปรับค่าตามต้องการ */
     }
+
+    .Project-assign-to{
+        padding: 10px;
+        border-radius: 10%;
+        background-color: #f28c82;
+        height: 400px;
+        width: 850px; /* Adjust the height as needed */
+        position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 0px; /* ปรับค่าตามต้องการ */
+        left: 550px; /* ปรับค่าตามต้องการ */
+    }
+
+    
     .finished-project {
-        height: 50px; /* Adjust the height as needed */
+        padding: 10px;
+        /* border-radius: 10%; */
+        background-color: #f28c82;
+        height: 400px;
+        width: 400px; /* Adjust the height as needed */
+        position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 500px; /* ปรับค่าตามต้องการ */
+        left: 100px; /* ปรับค่าตามต้องการ */
     }
+
+    .On-going-project
+    {
+        padding: 10px;
+        /* border-radius: 10%; */
+        background-color: #f28c82;
+        height: 400px;
+        width: 400px; /* Adjust the height as needed */
+        position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 500px; /* ปรับค่าตามต้องการ */
+        left: 550px; /* ปรับค่าตามต้องการ */
+    }
+    .On-waiting-list-project
+    {
+        padding: 10px;
+        /* border-radius: 10%; */
+        background-color: #f28c82;
+        height: 400px;
+        width: 400px; /* Adjust the height as needed */
+        position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 500px; /* ปรับค่าตามต้องการ */
+        left: 1000px; /* ปรับค่าตามต้องการ */
+    }
+    .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #4285f4;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* ใช้ position: absolute เพื่อจัดตำแหน่ง */
+        top: 950px; /* ปรับค่าตามต้องการ */
+        left: 20px; 
+  }  
+   .arrow-icon { 
+    width: 30px;
+    height: 30px;
+    transform: rotate(-90deg); /* หมุนลูกศร 180 องศา */
+    fill: white;
+    position: absolute; 
+        
+        
+  } 
+    
 </style>
