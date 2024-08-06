@@ -1,7 +1,8 @@
 import './app.css'
 import App from './App.svelte'
+import Dashboard from './Dashboard.svelte'
 
-const app = new App({
+const app = new Dashboard({
   target: document.getElementById('app')!,
 })
 
