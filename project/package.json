@@ -25,6 +25,8 @@
   "dependencies": {
     "bits-ui": "^0.21.13",
     "clsx": "^2.1.1",
+    "lib": "^5.1.0",
+    "shadcn-ui": "^0.2.3",
     "tailwind-merge": "^2.4.0",
     "tailwind-variants": "^0.2.1"
   }
