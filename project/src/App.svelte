@@ -50,7 +50,7 @@
 
   <button class="fixed bottom-4 right-4 bg-red-500 text-white rounded-full p-4 shadow-lg">
     <svg
-      class="w-6 h-6"
+      class="w-4 h-4"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
